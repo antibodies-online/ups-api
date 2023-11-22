@@ -31,9 +31,15 @@
         "friendsofphp/php-cs-fixer": "^3.5"
     },
     "autoload": {
-        "psr-4": { "AntibodiesOnline\\UpsApi\\" : "src/" }
+        "psr-4": {
+            "AntibodiesOnline\\UpsApi\\Paperless\\" : "src\Paperless/",
+            "AntibodiesOnline\\UpsApi\\OAuthClientCredentials\\" : "src\OAuthClientCredentials/",
+            "AntibodiesOnline\\UpsApi\\OAuthAuthCode\\" : "src\OAuthAuthCode/",
+            "AntibodiesOnline\\UpsApi\\Shipping\\" : "src\Shipping/",
+            "AntibodiesOnline\\UpsApi\\Rating\\" : "src\Rating/"
+        }
     },
     "autoload-dev": {
-        "psr-4": { "AntibodiesOnline\\UpsApi\\Test\\" : "test/" }
+        "psr-4": { "AntibodiesOnline\\UpsApi\\Paperless\\Test\\" : "test/" }
     }
 }

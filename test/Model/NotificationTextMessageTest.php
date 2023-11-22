@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  AntibodiesOnline\UpsApi
+ * @package  AntibodiesOnline\UpsApi\Shipping
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -26,7 +26,7 @@
  * Please update the test case below to test the model.
  */
 
-namespace AntibodiesOnline\UpsApi\Test\Model;
+namespace AntibodiesOnline\UpsApi\Shipping\Test\Model;
 
 use PHPUnit\Framework\TestCase;
 
@@ -35,7 +35,7 @@ use PHPUnit\Framework\TestCase;
  *
  * @category    Class
  * @description TextMessage container is used for specifying phone number for receiving text Alternate Delivery Location notification and UAP Shipper notification.  Valid only for Alternate Delivery Location notification and UAP Shipper notification. VoiceMessage phone number or TextMessage phone number or email address is required for ADL notification and UAP Shipper notification.
- * @package     AntibodiesOnline\UpsApi
+ * @package     AntibodiesOnline\UpsApi\Shipping
  * @author      OpenAPI Generator team
  * @link        https://openapi-generator.tech
  */

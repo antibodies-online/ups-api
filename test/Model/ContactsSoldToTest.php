@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  AntibodiesOnline\UpsApi
+ * @package  AntibodiesOnline\UpsApi\Shipping
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -26,7 +26,7 @@
  * Please update the test case below to test the model.
  */
 
-namespace AntibodiesOnline\UpsApi\Test\Model;
+namespace AntibodiesOnline\UpsApi\Shipping\Test\Model;
 
 use PHPUnit\Framework\TestCase;
 
@@ -35,7 +35,7 @@ use PHPUnit\Framework\TestCase;
  *
  * @category    Class
  * @description SoldTo Container. The Sold To party&#39;s country code must be the same as the Ship To party&#39;s country code with the exception of Canada and satellite countries.  Applies to Invoice and NAFTA CO Forms. Required if Invoice or NAFTA CO (International Form) is requested.
- * @package     AntibodiesOnline\UpsApi
+ * @package     AntibodiesOnline\UpsApi\Shipping
  * @author      OpenAPI Generator team
  * @link        https://openapi-generator.tech
  */

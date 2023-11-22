@@ -4,6 +4,6 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**poa** | [**\AntibodiesOnline\UpsApi\Shipping\UPSFiledPOA**](UPSFiledPOA.md) |  |
+**poa** | [**\AntibodiesOnline\UpsApi\Shipping\Model\UPSFiledPOA**](UPSFiledPOA.md) |  |
 
 [[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)

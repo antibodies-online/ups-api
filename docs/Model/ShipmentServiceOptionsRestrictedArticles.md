@@ -4,14 +4,12 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**alcoholic_beverages_indicator** | **string** | This field is a flag to indicate if the package has Alcohol. True if present; false otherwise.  Valid for UPS World Wide Express Freight shipments. | [optional]
-**diagnostic_specimens_indicator** | **string** | This field is a flag to indicate if the package has Biological substances. True if present; false otherwise.  Valid for UPS World Wide Express Freight shipments. Lane check will happen based on postal code/ city. | [optional]
-**perishables_indicator** | **string** | This field is a flag to indicate if the package has Perishables. True if present; false otherwise.  Valid for UPS World Wide Express Freight shipments. | [optional]
-**plants_indicator** | **string** | This field is a flag to indicate if the package has Plants. True if present; false otherwise.  Valid for UPS World Wide Express Freight shipments. | [optional]
-**seeds_indicator** | **string** | This field is a flag to indicate if the package has Seeds. True if present; false otherwise.  Valid for UPS World Wide Express Freight shipments. | [optional]
-**special_exceptions_indicator** | **string** | This field is a flag to indicate if the package has Special Exceptions Restricted Materials. True if present; false otherwise.  Valid for UPS World Wide Express Freight shipments. | [optional]
-**tobacco_indicator** | **string** | This field is a flag to indicate if the package has Tobacco. True if present; false otherwise.  Valid for UPS World Wide Express Freight shipments. | [optional]
-**e_cigarettes_indicator** | **string** | This field is a flag to indicate if the package has E-Cigarettes. True if present; false otherwise.  Valid for UPS World Wide Express Freight shipments. | [optional]
-**hemp_cbd_indicator** | **string** | This field is a flag to indicate if the package has Hemp/CBD. True if present; false otherwise.  Valid for UPS World Wide Express Freight shipments. | [optional]
+**diagnostic_specimens_indicator** | **string** | This field is a flag to indicate if the package has Biological substances. True if present; false otherwise.  Shippers account needs to have a valid contract for Biological Substances. Lane check will happen based on postal code/ city. | [optional]
+**alcoholic_beverages_indicator** | **string** | Presence/Absence Indicator. True if present; false otherwise. Any value is ignored. If present, indicates that the package contains Alcoholic Beverages  Shippers account needs to have a valid contract for Alcohol. | [optional]
+**perishables_indicator** | **string** | Presence/Absence Indicator. True if present; false otherwise. Any value is ignored. If present, indicates that the package contains Perishable items.  Shippers account needs to have a valid contract for Perishables. | [optional]
+**plants_indicator** | **string** | Presence/Absence Indicator. True if present; false otherwise. Any value is ignored. If present, indicates that the package contains Plants  Shippers account needs to have a valid contract for Plants. | [optional]
+**seeds_indicator** | **string** | Presence/Absence Indicator. True if present; false otherwise. Any value is ignored. If present, indicates that the package contains Seeds.  Shippers account needs to have a valid contract for Seeds. | [optional]
+**special_exceptions_indicator** | **string** | Presence/Absence Indicator. True if present; false otherwise. Any value is ignored. If present, indicates that the package contains Special Exception items.  Shippers account needs to have a valid contract for Special Exceptions. | [optional]
+**tobacco_indicator** | **string** | Presence/Absence Indicator. True if present; false otherwise. Any value is ignored. If present, indicates that the package contains Tobacco  Shippers account needs to have a valid contract for Tobacco. | [optional]
 
 [[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)

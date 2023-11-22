@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  AntibodiesOnline\UpsApi
+ * @package  AntibodiesOnline\UpsApi\Shipping
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -26,7 +26,7 @@
  * Please update the test case below to test the model.
  */
 
-namespace AntibodiesOnline\UpsApi\Test\Model;
+namespace AntibodiesOnline\UpsApi\Shipping\Test\Model;
 
 use PHPUnit\Framework\TestCase;
 
@@ -35,7 +35,7 @@ use PHPUnit\Framework\TestCase;
  *
  * @category    Class
  * @description Contains the commodity/product information.  Applies to EEI, Invoice, Partial Invoice, CO and NAFTA CO. When any International form is requested, at least one Product must be present.   Maximum number of products allowed for different forms are:  50: Package Packing List  100: Commercial Invoice, NAFTA, CO, EEI  1000: Air Freight packing list  Note: For Partial Invoice this container is optional.
- * @package     AntibodiesOnline\UpsApi
+ * @package     AntibodiesOnline\UpsApi\Shipping
  * @author      OpenAPI Generator team
  * @link        https://openapi-generator.tech
  */

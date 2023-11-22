@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  AntibodiesOnline\UpsApi
+ * @package  AntibodiesOnline\UpsApi\Shipping
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -26,7 +26,7 @@
  * Please update the test case below to test the model.
  */
 
-namespace AntibodiesOnline\UpsApi\Test\Model;
+namespace AntibodiesOnline\UpsApi\Shipping\Test\Model;
 
 use PHPUnit\Framework\TestCase;
 
@@ -35,7 +35,7 @@ use PHPUnit\Framework\TestCase;
  *
  * @category    Class
  * @description Container for the Label Delivery accessorial. Note - LabelDelivery is not applicable for GFP and Mail Innovations Forward shipment.  Required for shipments with either Electronic Return Label Return Service or ImportControl Electronic LabelMethod type. Optional for shipments with Print Return Label Return Service or ImportControl Print LabelMethod type or Forward movement.  If this container is present for shipments with either Electronic Return Label Return Service or ImportControl Electronic LabelMethod type, either of the LabelLinksIndicator or EMail container should be provided. For shipments with Print Return Label Return Service or ImportControl Print LabelMethod type or Forward movement, only LabelLinksIndicator is valid option for LabelDelivery container.
- * @package     AntibodiesOnline\UpsApi
+ * @package     AntibodiesOnline\UpsApi\Shipping
  * @author      OpenAPI Generator team
  * @link        https://openapi-generator.tech
  */

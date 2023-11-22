@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  AntibodiesOnline\UpsApi
+ * @package  AntibodiesOnline\UpsApi\Rating
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -26,7 +26,7 @@
  * Please update the test case below to test the model.
  */
 
-namespace AntibodiesOnline\UpsApi\Test\Model;
+namespace AntibodiesOnline\UpsApi\Rating\Test\Model;
 
 use PHPUnit\Framework\TestCase;
 
@@ -35,7 +35,7 @@ use PHPUnit\Framework\TestCase;
  *
  * @category    Class
  * @description Container for returned Time in Transit information.  Will only be returned if request option was either \&quot;ratetimeintransit\&quot; or \&quot;shoptimeintransit\&quot; and DeliveryTimeInformation container was present in request.
- * @package     AntibodiesOnline\UpsApi
+ * @package     AntibodiesOnline\UpsApi\Rating
  * @author      OpenAPI Generator team
  * @link        https://openapi-generator.tech
  */

@@ -8,6 +8,6 @@ Name | Type | Description | Notes
 **number** | **string** | Credit Card number. |
 **expiration_date** | **string** | Format is MMYYYY where MM is the 2 digit month and YYYY is the 4 digit year.  Valid month values are 01-12 and valid year values are Present Year (Present Year + 10 years) |
 **security_code** | **string** | Three or four digits that can be found either on top of credit card number or on the back of credit card. Number of digits varies for different type of credit card.  Valid values are 3 or 4 digits. It is required to provide the security code if credit card information is provided and when the ShipFrom countries or territories are other than the below mentioned countries or territories. Argentina, Bahamas, Costa Rica, Dominican Republic, Guatemala, Panama, Puerto Rico and Russia. |
-**address** | [**\AntibodiesOnline\UpsApi\Shipping\CreditCardAddress**](CreditCardAddress.md) |  | [optional]
+**address** | [**\AntibodiesOnline\UpsApi\Shipping\Model\CreditCardAddress**](CreditCardAddress.md) |  | [optional]
 
 [[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)

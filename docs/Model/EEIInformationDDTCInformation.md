@@ -9,7 +9,7 @@ Name | Type | Description | Notes
 **eligible_party_indicator** | **string** | Presence/Absent indicator. Certification by the U.S. exporter that the exporter is an eligible party to participate in the defense trade. | [optional]
 **registration_number** | **string** | It is a unique registration code assigned to the registrant. The DDTC registration code consist of a letter prefix, M (assigned to a manufacturer and/or exporter) or K (assigned to a broker), followed by four or five digits (e.g. K-1234 or M12345).  It is required for EEIFilingOption code 3. | [optional]
 **quantity** | **string** | Export Quantity.  Applies to EEI form only. It is required for EEIFilingOption code 3. Only positive integer value is valid. | [optional]
-**unit_of_measurement** | [**\AntibodiesOnline\UpsApi\Shipping\DDTCInformationUnitOfMeasurement**](DDTCInformationUnitOfMeasurement.md) |  | [optional]
+**unit_of_measurement** | [**\AntibodiesOnline\UpsApi\Shipping\Model\DDTCInformationUnitOfMeasurement**](DDTCInformationUnitOfMeasurement.md) |  | [optional]
 **significant_military_equipment_indicator** | **string** | Presence/ Absence Indicator.  Applies to EEI form only. | [optional]
 **acm_number** | **string** | Approved Community Member Number (ACM). It is required to be provided along with ITARExemptionNumber for some License code (SGB and SAU). The ACM# for the United Kingdom (License code SGB) must begin with UK followed by 9 numbers.  The ACM# for Australia (License Code SAU) must begin with DTT followed by 8 numbers.  Applies to EEI form only.  It is required for EEIFilingOption code 1A and 3. | [optional]
 

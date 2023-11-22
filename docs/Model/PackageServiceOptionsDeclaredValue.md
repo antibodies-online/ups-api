@@ -4,7 +4,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**currency_code** | **string** | The IATA currency code associated with the declared value amount for the package.  Required if a value for the package declared value amount exists in the MonetaryValue tag. Must match one of the IATA currency codes. Length is not validated. UPS does not support all international currency codes. Refer to Currency Codes in the Appendix for a list of valid codes. |
-**monetary_value** | **string** | The monetary value for the declared value amount associated with the package.  Max value of 5,000 USD for Local and 50,000 USD for Remote. Absolute maximum value is 21474836.47 |
+**type** | [**\AntibodiesOnline\UpsApi\Shipping\Model\DeclaredValueType**](DeclaredValueType.md) |  | [optional]
+**currency_code** | **string** | Declared value amount currency type. Defaults to the non-Euro currency used in the shippers country or territory.  Code must represent a currency that is a valid for Shipper country or territory. |
+**monetary_value** | **string** | Declared value amount. |
 
 [[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)

@@ -4,7 +4,7 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**code** | **string** | The code associated with the unit of measure for the billable weight of a package. |
-**description** | **string** | The Description for the Unit Of Measurement. |
+**code** | **string** | Code representing the unit of measure associated with the package weight. |
+**description** | **string** | Text description of the code representing the unit of measure associated with the package weight. | [optional]
 
 [[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)

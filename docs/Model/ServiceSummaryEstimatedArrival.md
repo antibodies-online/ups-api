@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**arrival** | [**\AntibodiesOnline\UpsApi\Rating\EstimatedArrivalArrival**](EstimatedArrivalArrival.md) |  |
+**arrival** | [**\AntibodiesOnline\UpsApi\Rating\Model\EstimatedArrivalArrival**](EstimatedArrivalArrival.md) |  |
 **business_days_in_transit** | **string** | Number of business days from Origin to Destination Locations. |
-**pickup** | [**\AntibodiesOnline\UpsApi\Rating\EstimatedArrivalPickup**](EstimatedArrivalPickup.md) |  |
+**pickup** | [**\AntibodiesOnline\UpsApi\Rating\Model\EstimatedArrivalPickup**](EstimatedArrivalPickup.md) |  |
 **day_of_week** | **string** | Day of week for arrival. Valid values are: MONTUEWEDTHUFRISAT |
 **customer_center_cutoff** | **string** | Customer Service call time. Returned for domestic as well as international requests. | [optional]
 **delay_count** | **string** | Number of days delayed at customs. Returned for International requests. | [optional]

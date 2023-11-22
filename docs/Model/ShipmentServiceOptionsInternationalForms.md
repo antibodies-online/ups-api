@@ -5,14 +5,14 @@
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **form_type** | **string[]** | Indicates the name of the International Form requested. Valid values:   01 - Invoice 03 - CO 04 - NAFTA CO 05 - Partial Invoice 06 - Packinglist 07 - Customer Generated Forms 08 - Air Freight Packing List 09 - CN22 Form 10 - UPS Premium Care Form 11 - EEI For shipment with return service, 01, 05 or 10 are the only valid values.  Note: 01 and 05 are mutually exclusive and 05 are only valid for return shipments only. |
-**user_created_form** | [**\AntibodiesOnline\UpsApi\Shipping\InternationalFormsUserCreatedForm**](InternationalFormsUserCreatedForm.md) |  | [optional]
-**ups_premium_care_form** | [**\AntibodiesOnline\UpsApi\Shipping\InternationalFormsUPSPremiumCareForm**](InternationalFormsUPSPremiumCareForm.md) |  | [optional]
-**cn22_form** | [**\AntibodiesOnline\UpsApi\Shipping\InternationalFormsCN22Form**](InternationalFormsCN22Form.md) |  | [optional]
+**user_created_form** | [**\AntibodiesOnline\UpsApi\Shipping\Model\InternationalFormsUserCreatedForm**](InternationalFormsUserCreatedForm.md) |  | [optional]
+**ups_premium_care_form** | [**\AntibodiesOnline\UpsApi\Shipping\Model\InternationalFormsUPSPremiumCareForm**](InternationalFormsUPSPremiumCareForm.md) |  | [optional]
+**cn22_form** | [**\AntibodiesOnline\UpsApi\Shipping\Model\InternationalFormsCN22Form**](InternationalFormsCN22Form.md) |  | [optional]
 **additional_document_indicator** | **string** | Presence of the indicator means user will supply additional document, such as EEI, NAFTA_CO or CO.  This indicator should be set when the shipper intends to utilize UPS paperless invoice functionality AND the shipper has SELF-PREPARED other International Forms (EEI, CO, NAFTACO) to accompany the shipment.  It is evaluated only when:  1. Account is paperless enabled.  2. Movement requires an invoice. 3. Destination country or territory accepts paperless invoice.  4. Invoice data is supplied by the client and the data passes validation. | [optional]
 **form_group_id_name** | **string** | Contains description text which identifies the group of International forms. This element does not appear on the forms. | [optional]
-**eei_filing_option** | [**\AntibodiesOnline\UpsApi\Shipping\InternationalFormsEEIFilingOption**](InternationalFormsEEIFilingOption.md) |  | [optional]
-**contacts** | [**\AntibodiesOnline\UpsApi\Shipping\InternationalFormsContacts**](InternationalFormsContacts.md) |  | [optional]
-**product** | [**\AntibodiesOnline\UpsApi\Shipping\InternationalFormsProduct[]**](InternationalFormsProduct.md) |  |
+**eei_filing_option** | [**\AntibodiesOnline\UpsApi\Shipping\Model\InternationalFormsEEIFilingOption**](InternationalFormsEEIFilingOption.md) |  | [optional]
+**contacts** | [**\AntibodiesOnline\UpsApi\Shipping\Model\InternationalFormsContacts**](InternationalFormsContacts.md) |  | [optional]
+**product** | [**\AntibodiesOnline\UpsApi\Shipping\Model\InternationalFormsProduct[]**](InternationalFormsProduct.md) |  |
 **invoice_number** | **string** | Commercial Invoice number assigned by the exporter.  Applies to Invoice and Partial Invoice forms only. Required for Invoice forms and optional for Partial Invoice. | [optional]
 **invoice_date** | **string** | Date when the Invoice is created. Ideally this is the same as the ship date.  Applies to Invoice and Partial Invoice forms only. Required for Invoice forms and optional for Partial Invoice. Required for Invoice form for forward shipments. For shipment with return service, the user input will be ignored, and the field will be blank on the invoice. Format is yyyyMMdd. | [optional]
 **purchase_order_number** | **string** | The customer&#39;s order reference number.  Applies to Invoice and Partial Invoice forms only. | [optional]
@@ -20,12 +20,12 @@ Name | Type | Description | Notes
 **reason_for_export** | **string** | A reason to export the current international shipment. Valid values: SALE, GIFT, SAMPLE, RETURN, REPAIR, INTERCOMPANYDATA, Any other reason.  Applies to Invoice and Partial Invoice forms only. Required for Invoice forms and Optional for Partial Invoice. No validation. | [optional]
 **comments** | **string** | Any extra information about the current shipment.  Applies to Invoice and Partial Invoice forms only. | [optional]
 **declaration_statement** | **string** | This is the legal explanation, used by Customs, for the delivering of this shipment. It must be identical to the set of declarations actually used by Customs. Examples of declarations that might be entered in this field are: I hereby certify that the goods covered by this shipment qualify as originating goods for purposes of preferential tariff treatment under the NAFTA. I hereby certify that the information on this invoice is true and correct and the contents and value of this shipment is as stated above.  EEA statement:  The exporter of the products covered by this document declares that except where otherwise clearly indicated these products are of EEA preferential origin.  Applies to Invoice and Partial Invoice forms only. On the invoice for return shipment, the verbiage is as follows (user input is ignored): The exporter of the products covered by this document declares that except where otherwise clearly indicated these products are of EEA preferential origin | [optional]
-**discount** | [**\AntibodiesOnline\UpsApi\Shipping\InternationalFormsDiscount**](InternationalFormsDiscount.md) |  | [optional]
-**freight_charges** | [**\AntibodiesOnline\UpsApi\Shipping\InternationalFormsFreightCharges**](InternationalFormsFreightCharges.md) |  | [optional]
-**insurance_charges** | [**\AntibodiesOnline\UpsApi\Shipping\InternationalFormsInsuranceCharges**](InternationalFormsInsuranceCharges.md) |  | [optional]
-**other_charges** | [**\AntibodiesOnline\UpsApi\Shipping\InternationalFormsOtherCharges**](InternationalFormsOtherCharges.md) |  | [optional]
+**discount** | [**\AntibodiesOnline\UpsApi\Shipping\Model\InternationalFormsDiscount**](InternationalFormsDiscount.md) |  | [optional]
+**freight_charges** | [**\AntibodiesOnline\UpsApi\Shipping\Model\InternationalFormsFreightCharges**](InternationalFormsFreightCharges.md) |  | [optional]
+**insurance_charges** | [**\AntibodiesOnline\UpsApi\Shipping\Model\InternationalFormsInsuranceCharges**](InternationalFormsInsuranceCharges.md) |  | [optional]
+**other_charges** | [**\AntibodiesOnline\UpsApi\Shipping\Model\InternationalFormsOtherCharges**](InternationalFormsOtherCharges.md) |  | [optional]
 **currency_code** | **string** | Currency code for all the monetary values of the Invoice form.  Applies to Invoice and Partial Invoice forms only. | [optional]
-**blanket_period** | [**\AntibodiesOnline\UpsApi\Shipping\InternationalFormsBlanketPeriod**](InternationalFormsBlanketPeriod.md) |  | [optional]
+**blanket_period** | [**\AntibodiesOnline\UpsApi\Shipping\Model\InternationalFormsBlanketPeriod**](InternationalFormsBlanketPeriod.md) |  | [optional]
 **export_date** | **string** | The date the goods will be exiting the country or territory.  Applies to CO and EEI forms only. Required for CO and EEI forms. Format is yyyyMMdd. | [optional]
 **exporting_carrier** | **string** | The name of the carrier that is exporting the shipment. The vessels flag number should also be entered, if the carrier is a vessel.  Applies to CO and EEI forms only. Required for CO and EEI forms. | [optional]
 **carrier_id** | **string** | The four-character Standard Carrier Alpha Code (SCAC) for vessel, rail, and truck shipments. For air shipment, enter the two or three character International Air Transport Association (IATA) code.  Applies to EEI forms only. No Validations. | [optional]

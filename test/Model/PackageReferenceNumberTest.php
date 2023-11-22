@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  AntibodiesOnline\UpsApi
+ * @package  AntibodiesOnline\UpsApi\Shipping
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -26,7 +26,7 @@
  * Please update the test case below to test the model.
  */
 
-namespace AntibodiesOnline\UpsApi\Test\Model;
+namespace AntibodiesOnline\UpsApi\Shipping\Test\Model;
 
 use PHPUnit\Framework\TestCase;
 
@@ -35,7 +35,7 @@ use PHPUnit\Framework\TestCase;
  *
  * @category    Class
  * @description Package reference number information container.  For Mail Innovation shipments, up to 3 reference numbers are supported. If 5 reference numbers are specified (CostCenter, PackageID, and 3 ReferenceNumbers) the 3 desigated by the ReferenceNumber container will not be visible on 4x6 label supported by the API. These additional reference numbers are only be visible on the 4x8 label..  For non-Mail Innovation shipments only the first 2 reference numbers will be visible on labels.
- * @package     AntibodiesOnline\UpsApi
+ * @package     AntibodiesOnline\UpsApi\Shipping
  * @author      OpenAPI Generator team
  * @link        https://openapi-generator.tech
  */

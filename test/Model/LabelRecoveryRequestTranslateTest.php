@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  AntibodiesOnline\UpsApi
+ * @package  AntibodiesOnline\UpsApi\Shipping
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -26,7 +26,7 @@
  * Please update the test case below to test the model.
  */
 
-namespace AntibodiesOnline\UpsApi\Test\Model;
+namespace AntibodiesOnline\UpsApi\Shipping\Test\Model;
 
 use PHPUnit\Framework\TestCase;
 
@@ -35,7 +35,7 @@ use PHPUnit\Framework\TestCase;
  *
  * @category    Class
  * @description Translate container allows the user to specify the language he/she would like a specific portion of response to return.  The language is specified by the combination of language code and dialect code.  Valid combinations are: LanguageCode + DialectCode.  Either Translate container or Locale element can be present in a given request. Both can&#39;t be requested together in same request. Combinations:  eng GB &#x3D; Queen&#39;s English  Spa 97 &#x3D; Castilian Spanish  ita 97 &#x3D; Italian  fra 97 &#x3D; France French  fra CA &#x3D; Canadian French  deu 97 &#x3D; German  por 97 &#x3D; Portugal Portuguese  nld 97 &#x3D; Dutch  dan 97 &#x3D; Danish  fin 97 &#x3D; Finnish  swe 97 &#x3D; Swedish  eng CA &#x3D; Canadian English  Eng US &#x3D; US English  Default language is Queen&#39;s English   If the Ship from country or territory is Canada, the Language defaults to Canadian English.   If the ship from country or territory is US, the language defaults to US English.  If shipping from some other country or territory, the language defaults to Queens English.
- * @package     AntibodiesOnline\UpsApi
+ * @package     AntibodiesOnline\UpsApi\Shipping
  * @author      OpenAPI Generator team
  * @link        https://openapi-generator.tech
  */

@@ -4,11 +4,11 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**address_line** | **string[]** | Destination street address including name and number (when applicable). |
-**city** | **string** | UPS Access Point city. | [optional]
-**state_province_code** | **string** | UPS Access Point State or Province code. | [optional]
-**postal_code** | **string** | Postal Code for UPS accounts billing address.  Postal Code  may be present when the FRS Payment Information type &#x3D; 02 and type &#x3D; 03. | [optional]
-**country_code** | **string** | Country or Territory code for the  UPS accounts &amp; billing address.  Country or Territory Code is required when the FRS Payment Information type &#x3D; 02 and type&#x3D; 03. |
-**residential_address_indicator** | **string** | Presence/Absence Indicator. Any value inside is ignored.This field is a flag to indicate if the Alternate Delivery location is a residential location. True if ResidentialAddressIndicator tag exists.  For future use. | [optional]
+**address_line** | **string[]** | Address Line of the consignee. |
+**city** | **string** | Consignee&#39;s city. 30 characters are accepted, but only 15 characters will be printed on the label. |
+**state_province_code** | **string** | Consignee&#39;s state or province code. Required for US or Canada. | [optional]
+**postal_code** | **string** | Consignee&#39;s postal code. | [optional]
+**country_code** | **string** | Consignee&#39;s country or territory code. |
+**residential_address_indicator** | **string** | This field is a flag to indicate if the receiver is a residential location.  True if ResidentialAddressIndicator tag exists.  This is an empty tag, any value inside is ignored. | [optional]
 
 [[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)
